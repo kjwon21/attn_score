@@ -1,0 +1,8 @@
+    - custom_transformers/my_transformers : 체언+조사에서 체언에 attention score 변경
+    - custom_transformers/my_transformers2 : 체언+조사에서 체언에 attention score 변경, [(i, boost_ena), ()]로 전달
+    - custom_transformers/my_transformers21 : random token에서 attention score 변경 (sts_2/my_transformer2 와 동일)
+    - custom_transformers/my_transformers22 : random token에서 attention score 변경, [(i, boost_ena), ()]로 전달
+    - custom_transformers/my_transformers31 : 체언+조사의 positional encoding을 동일한 값으로 처리. 체언 + 조사 attention score 변경 있음.
+    - custom_transformers/my_transformers32 : 체언+조사의 positional encoding을 동일한 값으로 처리. attention score 변경 없음. [(i, boost_ena), ()]로 전달
+    - custom_transformers/my_transformers41 : 체언+조사의 embedding을 더함. 채언 + 조사 attention score 변경 있음.
+    - custom_transformers/my_transformers42 : 체언+조사의 embedding을 더함. attention score 변경 없음. [(i, boost_ena), ()]로 전달
